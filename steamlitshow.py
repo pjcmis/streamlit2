@@ -50,7 +50,7 @@ def load_models():
     """加载预训练模型"""
     # YOLO模型
     yolo_model = YOLO(
-        r'E:\learning\program\class program\oee_yolo\exp\exp\runs\detect\defect_v8s\weights\best.pt'
+        r''runs/detect/defect_v8s/weights/best.pt'
     )  # 修改为实际路径
 
     # CNN模型
